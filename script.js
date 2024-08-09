@@ -28,7 +28,7 @@ let jadwalPiketJumat ="1.Fardan. 2.Algi. 3.Ahmad. 4.Aqila. 5.Manda. 6.Enok. 7.Be
 if(GanjilGenap == "Genap" && Hari == "Senin"){
     jadwal.innerHTML = jadwalGenapSenin;
 } else if(GanjilGenap == "Genap" && Hari == "Selasa"){
- jadwal.innerHTML = jadwalGenapSelasa
+ jadwal.innerHTML = jadwalGenapSelasa;
 } else if(GanjilGenap == "Genap" && Hari == "Rabu"){
  jadwal.innerHTML = jadwalGenapRabu;
 } else if(GanjilGenap == "Genap" && Hari == "Kamis"){
@@ -36,13 +36,13 @@ if(GanjilGenap == "Genap" && Hari == "Senin"){
 } else if(GanjilGenap == "Genap" && Hari == "Jumat"){
  jadwal.innerHTML = jadwalGenapJumat;
 } else{
-    //jadwal.innerHTML = "Tolong Tulis yang Benar"
+    // jadwal.innerHTML = "Tolong Tulis yang Benar"
 };
 
 if(GanjilGenap == "Ganjil" && Hari == "Senin"){
     jadwal.innerHTML = JadwalGanjilSenin;
 } else if(GanjilGenap == "Ganjil" && Hari == "Selasa"){
- jadwal.innerHTML = JadwalGanjilSelasa
+ jadwal.innerHTML = JadwalGanjilSelasa;
 } else if(GanjilGenap == "Ganjil" && Hari == "Rabu"){
  jadwal.innerHTML = jadwalGanjilRabu;
 } else if(GanjilGenap == "Ganjil" && Hari == "Kamis"){
@@ -50,7 +50,7 @@ if(GanjilGenap == "Ganjil" && Hari == "Senin"){
 } else if(GanjilGenap == "Ganjil" && Hari == "Jumat"){
  jadwal.innerHTML = jadwalGanjilJumat;
 } else{
-    //jadwal.innerHTML = "Tolong Tulis yang Benar"
+    // jadwal.innerHTML = "Tolong Tulis yang Benar"
 };
 
 if(Hari == "Senin"){
