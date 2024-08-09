@@ -50,7 +50,7 @@ if(GanjilGenap == "Ganjil" && Hari == "Senin"){
 } else if(GanjilGenap == "Ganjil" && Hari == "Jumat"){
  jadwal.innerHTML = jadwalGanjilJumat;
 } else{
-    jadwal.innerHTML = "Tolong Tulis yang Benar"
+    //jadwal.innerHTML = "Tolong Tulis yang Benar"
 };
 
 if(Hari == "Senin"){
